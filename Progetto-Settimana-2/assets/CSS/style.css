@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    background-color: #E9EDEE;
+}
+
+.main-header {
+    background-color: #222F3F;
+    padding: 0.6rem; 
+    color: white; 
+}
+
+.header-content {
+    font-size: 0; 
+    text-align: left; 
+}
+
+.header-content img {
+    width: 6.25rem; 
+    height: auto; 
+    margin-right: 1.5rem; 
+    vertical-align: middle; 
+}
+
+.banner-section {
+    background-color: #364757;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.4rem 1rem; /* Sintassi compatta per il padding */
+    text-align: left;
+}
+
+.text-box {
+    background-color: inherit; /* Eredità del colore di sfondo dalla banner-section */
+    color: inherit; /* Eredità del colore del testo dalla banner-section */
+    padding: 0; /* Spaziatura interna */
+    margin-right: 0; /* Margine tra le caselle di testo */
+    box-sizing: border-box; /* Per includere padding e bordi nella larghezza */
+    display: inline-block; /* Per allineare le caselle di testo su una riga */
+    vertical-align: top; /* Allinea le caselle di testo in alto */
+}
+
+.jumbotron {
+    background-color: #F56600;
+    text-align: center;
+    padding: 0.1rem;
+    font-size: 0.7rem;
+    margin: 0 auto; /* Centra il jumbotron orizzontalmente */
+    max-width: 95%; /* Larghezza massima del jumbotron */
+    margin-top: 1.5rem; /* Spazio sopra il jumbotron */
+    color: white;    
+}
+
+.img1 {
+    background-image: url(../img/bg-image.png);
+    background-size: 100% auto; /* Adatta l'immagine orizzontalmente alla larghezza del contenitore */
+    background-position: center; /* Centra l'immagine */
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.7rem;
+    margin: 1.4rem; /* Centra il contenitore orizzontalmente */
+    max-width: 95%; /* Larghezza massima del contenitore */
+    margin-top: 1.5rem; /* Spazio sopra il contenitore */
+    color: white;
+}
+
+.sezione1 {
+    background-color: #FFFFFF; /* Cambia il colore di sfondo a tua scelta */
+    text-align: left; /* Allineamento del testo a destra */
+    padding: 1rem; /* Spaziatura interna della sezione */
+    margin: 1.4rem; /* Centra la sezione orizzontalmente */
+    max-width: 95%; /* Larghezza massima della sezione */
+    margin-top: 1.5rem; /* Spazio sopra la sezione */
+    color: black;
+}
+
+.sezione1 p {
+    margin: 0;
+    padding-bottom: 0.5rem; /* Riduce il margine sotto il paragrafo */
+}
+
+.images-container {
+    text-align: center; /* Centra le immagini */
+}
+
+.sezione1 img {
+    height: 16rem; /* Altezza fissa delle immagini */
+    width: 12rem; /* Larghezza fissa delle immagini */
+    margin: 0.5rem; /* Spaziatura tra le immagini */
+    object-fit: cover; /* Impedisce la distorsione dell'immagine e ritaglia se necessario */
+    border-radius: 8px; /* Angoli stondati */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Ombra leggera */
+    display: inline-block; /* Per allineare le immagini una di fianco all'altra */
+}
+
+.sezione2 {
+    position: relative; /* Posizionamento relativo per consentire il posizionamento assoluto dei figli */
+    margin: 0 auto; /* Centra la sezione orizzontalmente */
+    max-width: 95%; /* Larghezza massima della sezione */
+    max-height: 5%;
+    margin-top: 1.5rem; /* Spazio sopra la sezione */
+    color: white; /* Colore del testo */
+}
+
+.background-image {
+    background-image: url(../img/img_9.png); /* Percorso dell'immagine di sfondo */
+    background-size: cover; /* Copre l'intera area con l'immagine */
+    background-position: center; /* Centra l'immagine */
+    height: 20rem; /* Altezza dell'area dell'immagine */
+}
+
+.sezione2 {
+    position: relative; /* Posizionamento relativo per consentire il posizionamento assoluto dei figli */
+    margin: 0 auto; /* Centra la sezione orizzontalmente */
+    max-width: 95%; /* Larghezza massima della sezione */
+    max-height: 5%;
+    margin-top: 1.5rem; /* Spazio sopra la sezione */
+    color: white; /* Colore del testo */
+}
+
+.sezione3 {
+    position: relative; /* Posizionamento relativo per consentire il posizionamento assoluto dei figli */
+    margin: 0 auto; /* Centra la sezione orizzontalmente */
+    max-width: 95%; /* Larghezza massima della sezione */
+    max-height: 5%;
+    margin-top: 1.5rem; /* Spazio sopra la sezione */
+    color: white; /* Colore del testo */
+}
+
+.sezione3 .background-image3 {
+    background-image: url(../img/img_10.png); /* Percorso dell'immagine di sfondo */
+    background-size: cover; /* Copre l'intera area con l'immagine */
+    background-position: center; /* Centra l'immagine */
+    height: 20rem; /* Altezza dell'area dell'immagine */
+}
+
+
+.custom-section {
+    background-color: #364757;
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem; /* Distanza dal blocco precedente */
+    height: 2rem; /* Stessa altezza di banner-section */
+}
+
+.custom-section p {
+    font-size: 1.2rem; /* Cambia la grandezza del testo */
+}
+
+.text-center {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.footer-banner {
+    background-color: #222F3F;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer-banner img {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    max-width: 10%; /* Imposta la larghezza massima dell'immagine al 50% del contenitore */
+    height: auto;
+    display: block; /* Impedisce la visualizzazione inline dell'immagine */
+    margin: 0 auto; /* Centra l'immagine */
+}
+
+a {
+    color: white; /* Colore blu per il testo del link */
+    text-decoration: none; /* Rimuove il sottolineato di default */
+}
+
+/* Stile per il link al passaggio del mouse */
+a:hover {
+    color: grey; /* Cambia il colore del link a rosso al passaggio del mouse */
+}
